@@ -14,7 +14,9 @@
         <tr>
             <th><%= p.name %></th>
             <th><%= p.value %></th>
-            <th><%= p.restaurant.name %></th>
+             <% Restaurant.all.each do |r| %>
+                <th><%= r.name %></th>
+            <% end %>
         </tr>
     <% end %>
     </tbody>
