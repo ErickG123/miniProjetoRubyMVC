@@ -23,6 +23,10 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'devise'
+gem 'rspec-rails'
+gem 'shoulda-matchers'
+gem 'factory_bot_rails'
+gem 'faker'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
